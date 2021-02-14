@@ -1,10 +1,11 @@
 import React from 'react';
 
 
-const Button = () =>{
+class Button extends React.Component {
 
-
+  render(){
     return <button className="ui button mini primary">Submit</button>
+  }
 }
 
 

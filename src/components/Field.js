@@ -1,12 +1,13 @@
-import React from 'react';
-
-
-
+import React from "react";
 
 class Field extends React.Component {
-
-  render(){
-    return <div>Field</div>
+  render() {
+    return (
+      <div className="ui field">
+        <label>Name</label>
+        <input />
+      </div>
+    );
   }
 }
 
