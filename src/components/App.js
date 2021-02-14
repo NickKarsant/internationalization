@@ -13,7 +13,7 @@ class App extends React.Component {
     return (
       <div className="ui container">
         <div>Select a Langauge: 
-        <i style={{marginLeft: '5px'}} className="flag us" onClick={() => this.onLanguageChange('english')}></i>
+        <i className="flag us" onClick={() => this.onLanguageChange('english')}  style={{marginLeft: '5px'}} ></i>
         <i className="flag fr" onClick={() => this.onLanguageChange('french')}></i>
         <i className="flag gr" onClick={() => this.onLanguageChange('greek')}></i>
         <i className="flag am" onClick={() => this.onLanguageChange('armenian')}></i>

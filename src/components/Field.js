@@ -4,8 +4,12 @@ class Field extends React.Component {
   render() {
     return (
       <div className="ui field">
-        <label>Name</label>
-        <input />
+        <label>First Name</label>
+        <input style={{width: '50%' }}/>
+        <label>Last Name</label>
+        <input style={{width: '50%' }} />
+        <label>Email</label>
+        <input style={{width: '75%' }}/>
       </div>
     );
   }
